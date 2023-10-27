@@ -1,0 +1,56 @@
+/*UNIVERSAL SELECTOR */
+/* *{
+    background-color: black;
+    color: white;
+    text-align: center;
+} */
+
+
+/*TYPE SELECTOR */
+/* h1,h3,div{
+  color: red;
+} */
+
+
+/* CLASS SELECTOR  */
+/* .container h1{
+    color: orange;
+} */
+
+/* ID SELECTOR  */
+/* #heading1{
+    color: blue;
+} */
+
+/* CHILD SELECTOR  */
+/* ul>li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+li>a{
+    text-decoration: none;
+    color: red;
+} */
+
+
+/* DESCENDING SELECCTOR  */
+/* div p{
+    color: red;
+} */
+
+/* ADJACENT SIBLING SELECTOR  */
+/* h1+p{
+    color: blue;
+} */
+
+/* General Sibling Selector  */
+h1~p{
+    color: blue;
+}
+
+
+
+
+
+
